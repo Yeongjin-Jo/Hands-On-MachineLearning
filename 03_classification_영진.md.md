@@ -15,7 +15,7 @@
 |no response|response|0.54|FP|6|3|0.75|1|
 |no response|response|0.53|FP|6|4|1|1|
 |no response|no response|0.44|TN|6|4|1|1|
-- <img src='./ROC_AUC graph 1.png' height=300px width=500px>
+- <img src='./ROC_AUC graph 1.PNG' height=300px width=500px>
 - 근데 만일 내 모델이 예측값을 정렬했을 때 TP가 다 앞에오고, FP가 다 뒤에가 있으면 ROC_AUC는 1이 된다. 
 - ***분명히 잘못 예측한 값이 있는데도 ROC_AUC가 1이 나온다는 건 이상한거고 ROC_AUC의 한계라고 생각한다.***
 
