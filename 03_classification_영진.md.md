@@ -24,7 +24,7 @@
 - ***게데가 ROC_AUC는 확률값이 아니다. 하지만 대부분의 분류에서는 구체적인 확률값을 구하는 것이 더 중요하다.(그래서 사과일 확률이 얼만지가 궁금하지 FPR과 TPR의 관계를 궁금해하진 않는다.)***
 - 이러한 단점을 보완하기 위해서, Brier Score를 적용할 수 있다. 
 > Brier Score 
-> - <img src='./Brier Score formula.png/' height=70px width=200px>
+> - <img src='./Brier Score formula.PNG/' height=70px width=200px>
 > - 확률값(0~1)과 실제값(0 or 1)의 차이를 제곱한 것을 평균낸 것 (당연히 작을수록 좋음. Loss처럼)
 - ROC_AUC_SCORE와 Brier Score를 동시에 고려해서 평가한다면, 예측 결과의 정답 여부와 예측값의 신빙성을 동시에 고려할 수 있다. 
 
@@ -69,8 +69,8 @@
 
 > Recall = TP / (TN + TP)
 
-<img src='./F1_Score_Multi_classification 1.png'>
-<img src='./F1_Score_Multi_classification 2.png'>
+<img src='./F1_Score_Multi_classification 1.PNG'>
+<img src='./F1_Score_Multi_classification 2.PNG'>
 
 --> F1 SCORE = (0.492와 0.775)의 조화 평균 = 0.601
 
